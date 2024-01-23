@@ -33,6 +33,11 @@ python3 train.py
 python3 predict.py
 ```
 
+## Video
+We use the predicted frames as reference frames again for colorization of the line sketch frames. Each video is colored 30 frames. Therefore the quality of the frames is not as high the further you go. In practice, we recommend a more intensive setting of reference frames to colorize.
+(https://github.com/silenye/Colorization/assets/80948355/d4eb1d4b-8aa4-4752-81af-561f6fdaa33b)
+(https://github.com/silenye/Colorization/assets/80948355/9d717990-0f19-479b-baca-25c706bf0b48)
+
 
 ## References
 [Sketch](https://github.com/lllyasviel/sketchKeras)  
