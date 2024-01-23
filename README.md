@@ -34,7 +34,7 @@ python3 predict.py
 ```
 
 ## Video
-We use the predicted frames as reference frames again for colorization of the line sketch frames. Each video is colored 30 frames. Therefore the quality of the frames is not as high the further you go. In practice, we recommend a more intensive setting of reference frames to colorize.
+We use the predicted frames as reference frames again for colorization of the line sketch frames. Each video is colored 30 frames. Therefore the quality of the frames is not as high the further you go. In practice, we recommend a more intensive setting of reference frames to colorize, especially for high-speed motion frames.
 
 ![image](https://github.com/silenye/Colorization/blob/master/video/116_gif-converter.gif?raw=true)
 ![image](https://github.com/silenye/Colorization/blob/master/video/103_gif-converter.gif?raw=true)
